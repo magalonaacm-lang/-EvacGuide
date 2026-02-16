@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel='stylesheet' href='https://unpkg.com/leaflet/dist/leaflet.css'><link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <header>
+
+  <div class="logo">🚨 EvacGuide</div>
+
+  <nav>
+
+    <a href="#">Home</a>
+
+    <a href="#map-section">Map</a>
+
+    <a href="#dashboard">Dashboard</a>
+
+    <a href="#about">About</a>
+
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <h1>Mapping Your Way to Safety</h1>
+
+  <p>Real-time evacuation guidance for residents of Biñan City</p>
+
+  <button onclick="scrollToMap()">View Evacuation Map</button>
+
+</section>
+
+<section id="map-section">
+
+  <h2>Evacuation Map</h2>
+
+  <div id="map"></div>
+
+  <div class="controls">
+
+    <button onclick="flagHome()">Flag My Home</button>
+
+    <button onclick="findNearest()">Find Nearest Center</button>
+
+  </div>
+
+</section>
+
+<section id="dashboard">
+
+  <h2>Rescuer Notification Dashboard</h2>
+
+  <div id="alerts"></div>
+
+</section>
+
+<section id="about">
+
+  <h2>About EvacGuide</h2>
+
+  <p>
+
+    EvacGuide supports SDG 11: Sustainable Cities and Communities
+
+    by improving disaster preparedness and evacuation planning in Biñan City.
+
+  </p>
+
+</section>
+
+<footer>
+
+  © 2026 EvacGuide | Disaster Preparedness System
+
+</footer>
+    <script src='https://unpkg.com/leaflet/dist/leaflet.js'></script><script  src="./script.js"></script>
+
+  </body>
+  
+</html>
